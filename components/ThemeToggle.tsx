@@ -39,7 +39,10 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={() => setTheme(nextTheme)}
-      className="inline-flex items-center justify-center rounded-full p-2 transition-all duration-200 hover:scale-110 text-neutral-700 hover:text-amber-600 dark:text-neutral-300 dark:hover:text-amber-400"
+      className="inline-flex items-center justify-center rounded-full p-2 transition-all duration-200 hover:scale-110 hover-button"
+      style={{
+        color: 'var(--text-color)',
+      }}
       aria-label={`Switch to ${nextTheme} mode`}
       title={`Switch to ${nextTheme} mode`}
     >

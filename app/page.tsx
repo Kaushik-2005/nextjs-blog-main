@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="flex justify-end">
         <ThemeToggle />
       </div>
-      <header className="font-cormorantGaramond font-light text-6xl text-neutral-900 dark:text-neutral-100 text-center -mt-4">
+      <header className="font-cormorantGaramond font-light text-6xl text-center -mt-4" style={{ color: 'var(--hover-color)' }}>
         <h1>Kaushik&apos;s Blog</h1>
       </header>
       <section className="md:grid md:grid-cols-2 flex flex-col gap-10">

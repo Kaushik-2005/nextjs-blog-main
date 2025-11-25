@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-color: #FAF3E1;
+  --text-color: #393E46;
+  --hover-color: #000000;
+}
+
+.dark {
+  --bg-color: #000000;
+  --text-color: #948979;
+  --hover-color: #DFD0B8;
+}
+
+.hover-link:hover {
+  color: var(--hover-color) !important;
+}
+
+.hover-button:hover {
+  color: var(--hover-color) !important;
+}
+
 .article {
   @apply flex flex-col gap-3 font-poppins text-lg tracking-wide mb-20;
 }
@@ -23,11 +43,15 @@
 }
 
 .article > pre {
-  @apply bg-neutral-900 text-neutral-50 p-5 overflow-scroll dark:bg-neutral-800;
+  @apply p-5 overflow-scroll;
+  background-color: var(--hover-color);
+  color: var(--bg-color);
 }
 
 .article > blockquote {
-  @apply pl-5 italic border-l-2 border-neutral-600 border-opacity-40 dark:border-neutral-400 dark:border-opacity-30;
+  @apply pl-5 italic border-l-2;
+  border-color: var(--hover-color);
+  opacity: 0.7;
 }
 
 .article > p > img {

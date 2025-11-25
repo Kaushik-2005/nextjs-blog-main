@@ -20,6 +20,24 @@ a {
   transition: color 0.2s ease;
 }
 
+.validation-msg {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.validation-msg.show {
+  opacity: 1;
+}
+
+.input-error {
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.2) !important;
+}
+
+.button-disabled {
+  opacity: 0.6 !important;
+  cursor: not-allowed !important;
+}
+
 .hover-link:hover {
   color: var(--hover-color) !important;
 }

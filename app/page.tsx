@@ -1,5 +1,6 @@
 import ArticleItemList from "@/components/ArticleListItem"
 import ThemeToggle from "@/components/ThemeToggle"
+import ContactForm from "@/components/ContactForm"
 import { getCategorisedArticles } from "@/lib/articles"
 
 const HomePage = () => {
@@ -55,6 +56,8 @@ const HomePage = () => {
             ))}
         </div>
       </section>
+      
+      <ContactForm />
     </section>
   )
 }

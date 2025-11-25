@@ -282,7 +282,7 @@ export default function ContactForm() {
                     
                 {submitStatus === "success" && (
                     <p className="text-center text-sm" style={{ color: 'var(--hover-color)' }}>
-                        Message sent successfully! I'll get back to you soon.
+                        Message sent successfully! I&apos;ll get back to you soon.
                     </p>
                 )}
 

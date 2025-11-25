@@ -38,6 +38,51 @@ a {
   cursor: not-allowed !important;
 }
 
+.footer-container {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid;
+  border-color: var(--secondary-text-color);
+  opacity: 0.3;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  color: var(--text-color);
+  transition: color 0.2s ease;
+}
+
+.footer-icon svg {
+  stroke: var(--text-color);
+  fill: none;
+  stroke-width: 1.5;
+  transition: stroke 0.2s ease;
+}
+
+.footer-icon:hover svg {
+  stroke: var(--hover-color);
+}
+
+.footer-text {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 0.875rem;
+  color: var(--hover-color);
+  margin: 0;
+  opacity: 0.7;
+}
+
 .hover-link:hover {
   color: var(--hover-color) !important;
 }

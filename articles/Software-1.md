@@ -1,5 +1,5 @@
 ---
-title: "How to write clean code"
+title: "1. How to write clean code"
 category: "Software Engineering"
 date: "24-10-2025"
 ---

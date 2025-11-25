@@ -3,15 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --bg-color: #FAF3E1;
-  --text-color: #393E46;
+  --bg-color: #DFD0B8;
+  --text-color: #2F2F2F;
+  --secondary-text-color: #5A5A5A;
   --hover-color: #000000;
 }
 
 .dark {
-  --bg-color: #000000;
-  --text-color: #948979;
-  --hover-color: #DFD0B8;
+  --bg-color: #0E0E0E;
+  --text-color: #B8B2A7;
+  --secondary-text-color: #8D8575;
+  --hover-color: #E8DCC8;
+}
+
+a {
+  transition: color 0.2s ease;
 }
 
 .hover-link:hover {
